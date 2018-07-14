@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+  background-color: #212121;
+}
+
+.card-content {
+  display: flex !important;
+}
+
+.card {
+  width: 50%;
+}
+
+.UserItem-leftBox {
+  width: 20%;
+}
+
+.UserItem-rightBox {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.UserItem-name,
+.UserItem-facebook {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.UserItem-image{
+  width: 120px;
+}
+
+.UserItem-name {
+  font-size: 1.2em;
+  margin: 0;
+}
+
+.UserItem-facebook {
+  font-size: 1em;
+  margin: 0;
+}
+
+.Home {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Home-preLoader {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
